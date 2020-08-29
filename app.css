@@ -1,55 +1,81 @@
 .cont {
-  padding: 25%;
+  padding: 23%;
   text-align: center;
-  background: url("https://www.jesusislife.in/wp-content/uploads/2019/05/Savin-NY-Website-Background-Web.jpg");
-  background-size: 100% 70%;
+  background: url("https://hackernoon.com/hn-images/1*TYAzzTJ60x-qg5N81ElU9A.png");
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 15%;
-  color: black;
+  background-position: center;
+  font-family: "Russo One", sans-serif;
 }
+
 .und {
   text-decoration: underline;
 }
 
-.tcet {
-  display: disabled;
-  text-align: center;
-  background-color: #8298b5;
-  padding: 4%;
-  box-sizing: border-box;
-  margin: 4%;
-  border-radius: 6%;
-  border: 2px solid rgba(0, 0, 0, 0.4);
-  transition: transform 150ms ease-in;
-}
-.tcet:hover {
-  transform: translate(0px, -30px);
-  background-color:  rgba(14, 120, 182, 0.685);
-  border:4px solid rgba(0, 0, 0, 1)) ;
-}
 .back {
-  background-color: #8298b5;
+  background-color: #0c2926;
 }
 .rtg {
   float: right;
-  color: black;
 }
 .navbar-light .navbar-brand {
   font-size: 100%;
-  border: 1px solid black;
+  border: 3px solid azure;
   padding: 0.5%;
   border-radius: 10%;
+  color: azure;
+}
+#brand:hover {
+  font-size: 140%;
+  color: yellowgreen;
+}
+.navlink {
+  color: white;
 }
 #hee {
-  text-shadow: 0px, 13px, 12px, black;
-  font-weight: 400;
+  text-shadow: 0px, 13%, 25%, black;
+  font-weight: 400%;
+  color: white;
+  font-size: 40%;
 }
+.tcet {
+  text-align: center;
+  padding: 5%;
+  border: 4px solid rgba(0, 0, 0, 0.6);
+  height: 8%;
+  margin: 10px;
+  float: center;
+  transition: transform 300ms ease-in;
+}
+.tcet:hover {
+  background-color: #0c2926;
+  transform: translate(0px, 15px);
+  color: white;
+}
+.tcetr {
+  float: center;
+  padding: 2% 2% 2% 5%;
+  size: 80% 80%;
+}
+.mage {
+  width: 60%;
+  height: 70%;
+  padding: 10%;
+}
+
 hr {
-  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-top: 2px solid white;
+  border-bottom: 1px solid grey;
+  width: 40%;
 }
-.footer{
-    text-align: center;
-    background-color:#8298b5 ;
-    
-    margin:2%;
+.footer {
+  text-align: center;
+  background-color: #0c2926;
+  border: 2px solid black;
+  margin: 2%;
+  color: white;
+}
+.hd {
+  text-decoration: underline;
+  font-size: 300%;
 }
